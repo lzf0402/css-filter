@@ -1,7 +1,8 @@
 # css-filter详解 #
 ----------
 
-> 之前项目开发中遇到要把图片模糊的需求，于是google了一把，采用了`filter-blur`来做，后发现`filter`是个好家伙啊，能处理很多图片特效，不仅仅是blur(敢情浏览器是想把自己做成图片处理器了)。再于是进一步了解了下filter这个css3新内容，注意此filter非CSS1里的filter属性，而是filter-effects，对应的[W3C规范](http://www.w3.org/TR/filter-effects/)。
+> 之前项目开发中遇到要把图片模糊的需求，于是google了一把，采用了`filter-blur`来做，后发现`filter`是个好家伙啊，能处理很多图片特效，不仅仅是blur(敢情浏览器是想把自己做成图片处理器了)。再于是从Mozilla的[web技术文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter%E6%BB%A4%E9%95%9C)（尝试翻译成了中文，英文不好请别拍砖）上进一步了解了下filter这个css3新内容，注意此filter非CSS1里的filter属性，而是filter-effects，对应的[W3C规范](http://www.w3.org/TR/filter-effects/)。
+
 
 废话不多说，先甩个图来看下效果：
 ![]()
@@ -10,6 +11,12 @@
 
 
 ## filter语法 ###
+
+
+
+
+
+[查看完整demo](http://sandbox.runjs.cn/show/ichzytmc)
 
 
 【参考资料】
