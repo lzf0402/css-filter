@@ -5,8 +5,10 @@
 
 
 废话不多说，先甩个图来看下效果：
-![]()
 
+ ![](https://raw.githubusercontent.com/lzf0402/css-filter/master/demo/show1.png)
+
+上图展示的是filter众多效果中的一种，即灰度效果。左边的图是原图，右边的图设置了`filter：grayscale(1)`这一属性，如你所见，图片变成了一张灰度图像。
 
 
 
