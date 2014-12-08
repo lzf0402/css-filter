@@ -89,6 +89,11 @@ li a .drop-shadow{
 li a .custom{
       -webkit-filter:saturate(5) hue-rotate(500deg) grayscale(0.3) sepia(0.7) contrast(1.5) invert(0.2) brightness(.9);
   }
+
+li a .blursvg{
+	-webkit-filter:url(blur.svg#blur);
+}
+
 </style>
 </head>
 <body>
@@ -204,6 +209,19 @@ li a .custom{
 	          brightness(.9);
 	      </pre>
 	    </li>
+	    <li>
+	      <a href="#">
+	        <img class="normal" title="normal" src="demo.png" />
+	        <img class="blursvg" title="blur-by-svg" src="demo.png" />
+	      </a>
+	      <span>blur-by-svg</span>
+	      <pre>
+	        -webkit-filter:url(blur.svg#blur);
+	      </pre>
+	    </li>
+
+
+
 	  </ul>
 </div>
 </body>
